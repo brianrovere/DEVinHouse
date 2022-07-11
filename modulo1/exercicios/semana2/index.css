@@ -1,0 +1,116 @@
+* {
+    margin: 0px;
+    padding: 0px;    
+}
+
+body {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+    }
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    min-width: 100vh;
+    background-color: black;
+    padding: 20px;
+}
+
+li {
+    display: inline-block;
+    padding: 0px 15px;
+    flex-grow: 1;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#nav-title {
+    color: rgb(240, 166, 6);
+    flex-grow: 4;
+}
+
+.logo {
+    display: inline-block;
+    color: red;
+    flex-grow: 5;
+}
+
+.logo_img {
+    width: 50px;
+    height: 50px;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;   
+    justify-content: space-between;
+}
+
+.card-highlight {
+    display: flex;
+    align-items: stretch;
+    justify-content: center;  
+    background-color: white;
+    max-height: 15%;
+    width: 100%;
+    padding: 100px 0px;    
+}
+
+.card-hl-img {
+    padding: 30px;    
+    padding: 0px;
+    margin: 0px;
+}
+
+#card-hl-img {
+    height: 350px;
+    border-radius: 20px 0px 0px 20px;
+    
+}
+
+.card-hl-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 350px;    
+    background-color: rgb(39, 38, 38);   
+    border-radius: 0px 20px 20px 0px;
+}
+
+.p-hl-info {
+    padding: 15px 0px 15px 30px;
+}
+
+.p-hl-info.evento {
+    color: rgb(140, 0, 255);
+    font-size: 25px;
+    padding-bottom: 10%;
+}
+
+.p-hl-info.local {
+    padding-top: 10%;
+}
+
+.p-hl-info.local, .p-hl-info.data {
+    color: rgb(214, 206, 206);
+}
+
+hr {
+    height: 1px;
+    background-color: rgb(73, 73, 73);
+    border: none;
+}
+
+
+footer {
+    background-color: coral;
+}
